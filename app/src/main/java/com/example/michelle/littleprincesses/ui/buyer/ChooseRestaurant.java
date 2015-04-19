@@ -84,7 +84,7 @@ public class ChooseRestaurant extends Activity {
             }
 
             // Find the car to work with
-            String curRestaurant = restaurants.get(position);
+            final String curRestaurant = restaurants.get(position);
 
             // Fill the view
             CheckBox checkbox = (CheckBox) itemView.findViewById(R.id.msyCheckBox);
@@ -95,6 +95,17 @@ public class ChooseRestaurant extends Activity {
                 }
             });
 
+            Button seeImage = (Button)itemView.findViewById(R.id.msy_item_see_image);
+            seeImage.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(ChooseRestaurant.this, BuyerDisplay.class);
+                    Bundle bundle = new Bundle();
+                    bundle.putString("curRestaurant", curRestaurant);
+                    intent.putExtras(bundle);
+                    startActivity(intent);
+                }
+            });
 
             // Make:
             TextView makeText = (TextView) itemView.findViewById(R.id.msyItemText);

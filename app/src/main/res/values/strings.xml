@@ -46,11 +46,81 @@
     <string name="confirm_status">Confirm Status</string>
 
 
+    <!--- Strings in the buyer display page-->
+    <string name="buyer_display_return">Return</string>
+    <string name="buyer_display_restaurant_name">Restaurant Name Here</string>
 
+    <!--- Strings in the buyer item-->
+    <string name="buyer_item_see_image">See Image</string>
 
+    <!--- Strings in the login page-->
+    <string name="login_login">Log In</string>
+    <string name="login_account">Account:</string>
+    <string name="login_password">Password:</string>
+    <string name="login_loginB">Buyer Login</string>
+    <string name="login_loginS">Seller Login</string>
+    <string name="login_BCreate">Create as Buyer</string>
+    <string name="login_SCreate">Create as Seller</string>
 
+    <!--- Strings in ui_seller_activity_create_menu-->
+    <string name="title_create_menu">Create Menu</string>
+    <string name="info_create_menu">Fill in the information</string>
+    <string name="title_name_create_menu">Name:</string>
+    <string name="title_info_create_menu">Introduction:</string>
+    <string name="title_price_create_menu">Price:</string>
+    <string name="name_create_menu">name of dish</string>
+    <string name="intro_create_menu">intro of dish</string>
+    <string name="price_create_menu">price of dish</string>
+    <string name="submit_create_menu">Submit</string>
+    <string name="cancel_create_menu">Cancel</string>
 
+    <!--- Strings in ui_seller_activity_create_restaurant-->
+    <string name="title_create_restaurant">Create Restaurant</string>
+    <string name="info_create_restaurant">Fill in the Information</string>
+    <string name="title_name_create_restaurant">Name:</string>
+    <string name="name_create_restaurant">name of restaurant</string>
+    <string name="title_address_create_restaurant">Address:</string>
+    <string name="address_create_restaurant">address of restaurant</string>
+    <string name="title_category_create_restaurant">Category</string>
+    <string name="category_create_restaurant">category of restaurant</string>
+    <string name="upload_image_create_restaurant">Upload Photo</string>
+    <string name="submit_create_restaurant">Submit</string>
+    <string name="cancel_create_restaurant">Cancel</string>
 
+    <!--- Strings in ui_seller_activity_create_restaurant-->
+    <string name="submit_delete_menu">Submit</string>
+    <string name="cancel_delete_menu">Cancel</string>
+
+    <!--- Strings in ui_seller_activity_main_activity_seller-->
+    <string name="title_main_activity_seller">Welcome to Little Princesses Food Order System!</string>
+    <string name="create_restaurant">Create Restaurant</string>
+    <string name="create_menu">Create Menu</string>
+    <string name="update_menu">Update Menu</string>
+    <string name="delete_menu">Delete Menu</string>
+    <string name="update_order_status">Update Order Status</string>
+    <string name="seller_welcome_logout">Log Out</string>
+
+    <!--- Strings in ui_seller_activity_update_menu_list-->
+    <string name="submit_update_menu_list">Submit</string>
+    <string name="cancel_update_menu_list">Cancel</string>
+
+    <!--- Strings in ui_seller_activity_update_menu_list-->
+    <string name="submit_update_order">Submit</string>
+    <string name="cancel_update_order">Cancel</string>
+
+    <!--- Strings in ui_seller_item-->
+    <string name="dish_update_order">DishShownHere</string>
+
+    <!--- Strings in ui_seller_update_menu-->
+    <string name="title_update_menu">Update Menu</string>
+    <string name="info_update_menu">Fill in the information</string>
+    <string name="title_name_update_menu">Name:</string>
+    <string name="name_update_menu">Name of Dish</string>
+    <string name="title_intro_update_menu">Introduction of Dish</string>
+    <string name="title_price_update_menu">Price:</string>
+    <string name="price_update_menu">Price of Dish</string>
+    <string name="submit_update_menu">Submit</string>
+    <string name="cancel_update_menu">Cancel</string>
 
 
 
@@ -61,5 +131,7 @@
     <string name="title_activity_order__dishes">Order Dishes</string>
     <string name="title_activity_confirm_page">Confirm Page</string>
     <string name="title_activity_order_statue">Order Status</string>
+    <string name="title_activity_ui_buyer_activity_buyer_display">ui_buyer_activity_buyer_display
+    </string>
 
 </resources>

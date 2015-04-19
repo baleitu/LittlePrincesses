@@ -34,6 +34,7 @@ public class MainActivitySeller extends Activity {
         updateMenu = (Button)findViewById(R.id.update_menu);
         deleteMenu = (Button)findViewById(R.id.delete_menu);
         updateOrderStatus = (Button)findViewById(R.id.update_order_status);
+        logOut = (Button)findViewById(R.id.seller_welcome_logout);
 
         createRestaurant.setOnClickListener(new View.OnClickListener() {
             @Override
